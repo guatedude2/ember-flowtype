@@ -2,9 +2,8 @@
 'use strict';
 
 module.exports = {
-  name: 'ember-hopscotch',
+  name: 'ember-flowtype',
   included: function (app) {
-    app.import(app.bowerDirectory + '/hopscotch/dist/css/hopscotch.css');
-    app.import(app.bowerDirectory + '/hopscotch/dist/js/hopscotch.js');
+    app.import(app.bowerDirectory + '/flowtype/flowtype.js');
   }
 };

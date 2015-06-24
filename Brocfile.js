@@ -19,8 +19,6 @@ var app = new EmberAddon();
 // along with the exports of each module as its value.
 
 
-app.import(app.bowerDirectory + '/hopscotch/dist/css/hopscotch.css');
-app.import(app.bowerDirectory + '/hopscotch/dist/js/hopscotch.js');
-//app.import(app.bowerDirectory + '/ember/ember-template-compiler.js');
+app.import(app.bowerDirectory + '/flowtype/flowtype.js');
 
 module.exports = app.toTree();
