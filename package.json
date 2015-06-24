@@ -1,7 +1,7 @@
 {
-  "name": "ember-hopscotch",
+  "name": "ember-flowtype",
   "version": "0.1.0",
-  "description": "Adds the Hopscotch framework plugin to an ember-cli application",
+  "description": "Adds the flowtype library to an ember-cli application",
   "directories": {
     "doc": "doc",
     "test": "tests"
@@ -11,7 +11,7 @@
     "build": "ember build",
     "test": "ember test"
   },
-  "repository": "https://github.com/guatedude2/ember-hopscotch.git",
+  "repository": "https://github.com/guatedude2/ember-flowtype.git",
   "engines": {
     "node": ">= 0.10.0"
   },
@@ -34,9 +34,9 @@
   },
   "keywords": [
     "ember-addon",
-    "hopscotch",
-    "tour",
-    "onboard"
+    "flowtype",
+    "fontsize",
+    "dynamic"
   ],
   "ember-addon": {
     "configPath": "tests/dummy/config"
